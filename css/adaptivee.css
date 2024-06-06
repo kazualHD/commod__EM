@@ -225,7 +225,7 @@
     }
 
     ._container {
-        max-width: 991px;
+        max-width: 750px;
     }
 
 
@@ -461,6 +461,10 @@
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
+    .opening img {
+        width: 150%;
+        padding-top: 50px;
+      }
     .faq__banner img {
         width: 150%;
     }
